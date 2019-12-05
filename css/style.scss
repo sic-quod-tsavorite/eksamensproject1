@@ -157,19 +157,19 @@ main section {
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 602px) {
   .nav-center {
     width: 100%;
     a {
-      white-space: nowrap; /*Det her virker ikke i en mobile browser?*/
+      white-space: nowrap;
       padding: 0 9px;
       font-size: 15px;
     }
-    .nav-right {
-      width: 0;
-    }
-    .banner img {
-      width: 100vw; /*det her virker ikke af en eller anden grund*/
-    }
+  }
+  .nav-right {
+    width: 0;
+  }
+  .banner img {
+    width: 100vw;
   }
 }

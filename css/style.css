@@ -183,22 +183,20 @@ main section #box6 {
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 602px) {
   .nav-center {
     width: 100%;
   }
   .nav-center a {
     white-space: nowrap;
-    /*Det her virker ikke i en mobile browser?*/
     padding: 0 9px;
     font-size: 15px;
   }
-  .nav-center .nav-right {
+  .nav-right {
     width: 0;
   }
-  .nav-center .banner img {
+  .banner img {
     width: 100vw;
-    /*det her virker ikke af en eller anden grund*/
   }
 }
 /*# sourceMappingURL=style.css.map */
