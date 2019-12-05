@@ -75,6 +75,7 @@ header:hover {
 .nav-center a {
   padding: 0 20px;
   font-size: 15px;
+  white-space: nowrap;
 }
 
 .nav-right {
@@ -188,7 +189,6 @@ main section #box6 {
     width: 100%;
   }
   .nav-center a {
-    white-space: nowrap;
     padding: 0 9px;
     font-size: 15px;
   }
