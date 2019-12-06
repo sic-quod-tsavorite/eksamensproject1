@@ -4,7 +4,121 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Document</title>
+    <title>History Made Simple</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/space.css" />
+    <!--font awesome link ref: <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">-->
+    <!--fav icon link-->
+    <link rel="shortcut icon" href="img/LOGO.svg" />
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+      var prevScrollpos = window.pageYOffset;
+      window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+          document.getElementById('navbar').style.top = '0';
+        } else {
+          document.getElementById('navbar').style.top = '-80px';
+        }
+        prevScrollpos = currentScrollPos;
+      };
+    </script>
   </head>
-  <body></body>
+  <body id="space">
+    <header id="navbar">
+      <div class="nav-left">
+        <a href="index.html">
+          <img src="img/LOGO.svg" />
+        </a>
+      </div>
+
+      <div class="nav-center">
+        <ul>
+          <li><a href="nature.html">Courses</a></li>
+          <li><a href="wildlife.html">Learn More</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+
+      <div class="nav-right"></div>
+    </header>
+
+    <main>
+      <section id="cd-timeline" class="cd-container">
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <!-- cd-timeline-img -->
+
+          <div class="cd-timeline-content">
+            <h2>Space event 1</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              deleniti nobis explicabo, doloribus, similique blanditiis
+              voluptate error repudiandae quidem cum omnis architecto?
+              Asperiores, repellat similique! Necessitatibus temporibus animi
+              non iste!
+            </p>
+            <span class="cd-date">1903</span>
+          </div>
+          <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <!-- cd-timeline-img -->
+
+          <div class="cd-timeline-content">
+            <h2>Space event 2</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+              optio, dolorum provident rerum aut hic quasi placeat iure tempora
+              laudantium ipsa ad debitis unde?
+            </p>
+            <span class="cd-date">1944</span>
+          </div>
+          <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <!-- cd-timeline-img -->
+
+          <div class="cd-timeline-content">
+            <h2>Space event 3</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+              deleniti nobis explicabo, doloribus, similique blanditiis
+              voluptate error repudiandae quidem cum omnis architecto?
+              Asperiores, repellat similique! Necessitatibus temporibus animi
+              non iste!
+            </p>
+            <span class="cd-date">1960</span>
+          </div>
+          <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <!-- cd-timeline-img -->
+
+          <div class="cd-timeline-content">
+            <h2>Space event 4</h2>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
+              optio, dolorum provident rerum aut hic quasi placeat iure tempora
+              laudantium ipsa ad debitis unde?
+            </p>
+            <span class="cd-date">1970</span>
+          </div>
+          <!-- cd-timeline-content -->
+        </div>
+        <!-- cd-timeline-block -->
+      </section>
+      <!-- cd-timeline -->
+    </main>
+  </body>
 </html>
