@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background-color: white;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+main {
+  width: 80%;
+  max-width: 1080px;
+  height: 1000px;
+  margin: 150px auto;
+  padding: 50px;
+  background: #2b343a;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#logoimg {
+  width: 50%;
+  background: white;
+  margin: 10px;
+}
+
+#text {
+  width: 50%;
+  background: white;
+  margin: 10px;
+}
+/*# sourceMappingURL=about.css.map */
