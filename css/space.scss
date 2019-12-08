@@ -1,9 +1,12 @@
-#space {
-  margin: 0;
+body {
   background-color: #222c32;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
+}
+
+main {
+  padding-top: 80px;
 }
 
 .cd-container {
@@ -98,8 +101,8 @@
     margin-left: -15px;
     margin-top: 15px;
     /* Force Hardware Acceleration in WebKit */
-    -webkit-transform: translateZ(0);
-    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+    backface-visibility: hidden;
   }
 }
 
