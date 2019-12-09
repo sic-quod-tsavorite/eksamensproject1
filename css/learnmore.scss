@@ -1,0 +1,39 @@
+h1{
+    font-family: 'Kameron', serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    color: #dbb24b;
+}
+h2{
+    font-family: 'Open sans', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+p{
+    font-family: 'Open sans', sans-serif;  
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+  }
+
+main{
+    width: 80%;
+    max-width: 1080px;
+    height: fit-content;
+    margin: 150px auto;
+    padding: 50px;
+    background: #2b343a;
+    border-radius: 2px;
+   
+    
+}
