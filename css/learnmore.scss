@@ -32,39 +32,4 @@ main {
   padding: 50px;
   background: #2b343a;
   border-radius: 2px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-#top {
-  width: 100%;
-  display: flex;
-  flex-direction: row;
-}
-
-#logoimg {
-  width: 50%;
-  background: rgba(255, 255, 255, 0);
-  margin: 10px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  img {
-    width: 70%;
-    margin: 0 auto;
-  }
-}
-
-#text {
-  width: 50%;
-  margin: 10px;
-}
-
-#bottom {
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  margin: 40px 0 5px 0;
 }

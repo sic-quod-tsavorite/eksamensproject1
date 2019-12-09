@@ -1,10 +1,13 @@
 body {
-  margin: 0;
   background-color: #222c32;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+main {
+  padding-top: 80px;
 }
 
 .cd-container {
@@ -108,7 +111,9 @@ body {
     margin-top: 15px;
     /* Force Hardware Acceleration in WebKit */
     -webkit-transform: translateZ(0);
+            transform: translateZ(0);
     -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
   }
 }
 
