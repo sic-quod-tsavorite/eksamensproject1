@@ -45,20 +45,45 @@ main section #box6 {
   grid-column: 3;
 }
 
-#boxText {
-  pointer-events: none;
-  position: absolute;
-  z-index: 2;
-}
-
-#boxImage {
+.box {
+  text-align: center;
   height: 300px;
   width: 400px;
-  -o-object-fit: cover;
-     object-fit: cover;
-  -webkit-filter: sepia(70%);
-          filter: sepia(70%);
-  z-index: 1;
+}
+
+#box1b {
+  background: url("https://cdnb.artstation.com/p/assets/images/images/010/350/317/large/vadim-sadovski-y21.jpg?1523967399");
+  background-size: cover;
+}
+
+#box2b {
+  background: url("https://images.freeimages.com/images/large-previews/bb8/rome-1233000.jpg");
+  background-size: cover;
+}
+
+#box3b {
+  background: url("https://images.freeimages.com/images/large-previews/83e/stained-glass-portraits-1220081.jpg");
+  background-size: cover;
+}
+
+#box4b {
+  background: url("https://cdna.artstation.com/p/assets/images/images/003/649/484/large/stefan-celic-stefan-celic-plague-doctor-copy.jpg?1476032393");
+  background-size: cover;
+}
+
+#box5b {
+  background: url("https://images.freeimages.com/images/large-previews/aaa/konzentrationslager-auschwitz-birkenau-und-auschwi-1413373.jpg");
+  background-size: cover;
+}
+
+#box6b {
+  background: url("https://images.freeimages.com/images/large-previews/869/child-from-kenya-1440102.jpg");
+  background-size: cover;
+}
+
+.boxHeader {
+  pointer-events: none;
+  color: white;
 }
 
 @media (max-width: 1280px) {
