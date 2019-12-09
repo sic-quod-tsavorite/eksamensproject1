@@ -21,8 +21,6 @@ p {
 }
 
 body {
-  margin: 0;
-  background-color: white;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
   -webkit-box-sizing: border-box;
