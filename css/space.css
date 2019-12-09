@@ -277,4 +277,8 @@ main {
     text-align: right;
   }
 }
+
+#more {
+  display: none;
+}
 /*# sourceMappingURL=space.css.map */

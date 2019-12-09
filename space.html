@@ -21,6 +21,22 @@
         }
         prevScrollpos = currentScrollPos;
       };
+      function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+  
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Læs mere";
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Skjul";
+    moreText.style.display = "inline";
+  }
+}
     </script>
   </head>
   <body>
@@ -49,15 +65,10 @@
           <!-- cd-timeline-img -->
 
           <div class="cd-timeline-content">
-            <h2>Space event 1</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
-              deleniti nobis explicabo, doloribus, similique blanditiis
-              voluptate error repudiandae quidem cum omnis architecto?
-              Asperiores, repellat similique! Necessitatibus temporibus animi
-              non iste!
-            </p>
-            <span class="cd-date">1903</span>
+            <h2>Første objekt i rummet</h2>
+            <p>I Oktober<span id="dots">...</span><span id="more"> sender U.S.S.R (Union of Soviet Socialist Republics) det første menneskeskabte objekt ud i jordens kredsløb, Sputnik 1. Allerede en måned efter sender de Sputnik 2 afsted med hunden Laika om bord.</span></p>
+            <button onclick="myFunction()" id="myBtn">Læs mere</button>
+            <span class="cd-date">1957</span>
           </div>
           <!-- cd-timeline-content -->
         </div>
@@ -68,13 +79,11 @@
           <!-- cd-timeline-img -->
 
           <div class="cd-timeline-content">
-            <h2>Space event 2</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto,
-              optio, dolorum provident rerum aut hic quasi placeat iure tempora
-              laudantium ipsa ad debitis unde?
-            </p>
-            <span class="cd-date">1944</span>
+            <h2>USA's første satelit</h2>
+            <p>U.S sender deres første<span id="dots">...</span><span id="more"> satellit Explorer 1 ud i Januar og opdager jordens rotationsbælte. I Oktober opretter U.S - NASA (National Aeronautics and Space Administration) og får sendt Pioneer 1 ud i rummet hvor den når en højde på 113,780621 kilometer. </span></p>
+
+            <button onclick="myFunction()" id="myBtn1">Read more</button>
+            <span class="cd-date">1958</span>
           </div>
           <!-- cd-timeline-content -->
         </div>
