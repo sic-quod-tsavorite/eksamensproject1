@@ -41,6 +41,36 @@ function myFunction1() {
     moreText1.style.display = 'inline';
   }
 }
+function myFunction2() {
+  var dots2 = document.getElementById('dots2');
+  var moreText2 = document.getElementById('more2');
+  var btnText2 = document.getElementById('myBtn2');
+
+  if (dots2.style.display === 'none') {
+    dots2.style.display = 'inline';
+    btnText2.innerHTML = 'Læs mere';
+    moreText2.style.display = 'none';
+  } else {
+    dots2.style.display = 'none';
+    btnText2.innerHTML = 'Skjul';
+    moreText2.style.display = 'inline';
+  }
+}
+function myFunction3() {
+  var dots3 = document.getElementById('dots3');
+  var moreText3 = document.getElementById('more3');
+  var btnText3 = document.getElementById('myBtn3');
+
+  if (dots3.style.display === 'none') {
+    dots3.style.display = 'inline';
+    btnText3.innerHTML = 'Læs mere';
+    moreText3.style.display = 'none';
+  } else {
+    dots3.style.display = 'none';
+    btnText3.innerHTML = 'Skjul';
+    moreText3.style.display = 'inline';
+  }
+}
 
 //auto scroll to a point on the page
 $('a[href*="#"]')
