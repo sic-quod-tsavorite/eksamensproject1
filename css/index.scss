@@ -12,6 +12,16 @@ html {
   }
 }
 
+.error {
+  text-align: center;
+}
+
+#error {
+  margin: 20vh auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 5vw;
+}
+
 main section {
   top: 70vh;
   position: absolute;
