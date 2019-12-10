@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 .banner {
   text-align: center;
 }
@@ -139,6 +135,9 @@ main section #box6 {
   }
   .banner img {
     height: 250px;
+  }
+  main section {
+    top: 45vh;
   }
   main section #box1,
   main section #box2,
