@@ -1,3 +1,4 @@
+//header animation
 var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
@@ -8,11 +9,13 @@ window.onscroll = function() {
   }
   prevScrollpos = currentScrollPos;
 };
+
+//show/hide text btn
 function myFunction() {
   var dots = document.getElementById('dots');
   var moreText = document.getElementById('more');
   var btnText = document.getElementById('myBtn');
-
+  // den tjekker basicly om der står læs mere eller skjul for om den skal vise "..." eller text
   if (dots.style.display === 'none') {
     dots.style.display = 'inline';
     btnText.innerHTML = 'Læs mere';
@@ -39,6 +42,7 @@ function myFunction1() {
   }
 }
 
+//auto scroll to a point on the page
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
   .not('[href="#"]')

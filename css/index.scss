@@ -38,6 +38,15 @@ main section {
   text-align: center;
   height: 300px;
   width: 400px;
+  filter: sepia(70);
+}
+.box:hover {
+  filter: none;
+  transition-duration: 1s;
+  .boxHeader {
+    opacity: 1;
+    transition-duration: 1s;
+  }
 }
 
 #box1b {
@@ -49,7 +58,7 @@ main section {
   background-size: cover;
 }
 #box3b {
-  background: url('https://images.freeimages.com/images/large-previews/83e/stained-glass-portraits-1220081.jpg');
+  background: url('https://images.freeimages.com/images/large-previews/92e/angel-1-1480339.jpg');
   background-size: cover;
 }
 #box4b {
@@ -67,7 +76,11 @@ main section {
 
 .boxHeader {
   pointer-events: none;
-  color: white;
+  color: #dbb24b;
+  text-shadow: 1px 1px white;
+  padding-top: 30%;
+  font-size: 40px;
+  opacity: 0;
 }
 
 @media (max-width: 1280px) {
