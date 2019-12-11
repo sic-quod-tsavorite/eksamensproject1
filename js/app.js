@@ -176,7 +176,36 @@ function myFunction10() {
     moreText10.style.display = 'inline';
   }
 }
+function myFunction11() {
+  var dots11 = document.getElementById('dots11');
+  var moreText11 = document.getElementById('more11');
+  var btnText11 = document.getElementById('myBtn11');
 
+  if (dots11.style.display === 'none') {
+    dots11.style.display = 'inline';
+    btnText11.innerHTML = 'Læs mere';
+    moreText11.style.display = 'none';
+  } else {
+    dots11.style.display = 'none';
+    btnText11.innerHTML = 'Skjul';
+    moreText11.style.display = 'inline';
+  }
+}
+function myFunction12() {
+  var dots12 = document.getElementById('dots12');
+  var moreText12 = document.getElementById('more12');
+  var btnText12 = document.getElementById('myBtn12');
+
+  if (dots12.style.display === 'none') {
+    dots12.style.display = 'inline';
+    btnText12.innerHTML = 'Læs mere';
+    moreText12.style.display = 'none';
+  } else {
+    dots12.style.display = 'none';
+    btnText12.innerHTML = 'Skjul';
+    moreText12.style.display = 'inline';
+  }
+}
 //auto scroll to a point on the page
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
