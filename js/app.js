@@ -206,6 +206,186 @@ function myFunction12() {
     moreText12.style.display = 'inline';
   }
 }
+function myFunction13() {
+  var dots13 = document.getElementById('dots13');
+  var moreText13 = document.getElementById('more13');
+  var btnText13 = document.getElementById('myBtn13');
+
+  if (dots13.style.display === 'none') {
+    dots13.style.display = 'inline';
+    btnText13.innerHTML = 'Læs mere';
+    moreText13.style.display = 'none';
+  } else {
+    dots13.style.display = 'none';
+    btnText13.innerHTML = 'Skjul';
+    moreText13.style.display = 'inline';
+  }
+}
+function myFunction14() {
+  var dots14 = document.getElementById('dots14');
+  var moreText14 = document.getElementById('more14');
+  var btnText14 = document.getElementById('myBtn14');
+
+  if (dots14.style.display === 'none') {
+    dots14.style.display = 'inline';
+    btnText14.innerHTML = 'Læs mere';
+    moreText14.style.display = 'none';
+  } else {
+    dots14.style.display = 'none';
+    btnText14.innerHTML = 'Skjul';
+    moreText14.style.display = 'inline';
+  }
+}
+function myFunction15() {
+  var dots15 = document.getElementById('dots15');
+  var moreText15 = document.getElementById('more15');
+  var btnText15 = document.getElementById('myBtn15');
+
+  if (dots15.style.display === 'none') {
+    dots15.style.display = 'inline';
+    btnText15.innerHTML = 'Læs mere';
+    moreText15.style.display = 'none';
+  } else {
+    dots15.style.display = 'none';
+    btnText15.innerHTML = 'Skjul';
+    moreText15.style.display = 'inline';
+  }
+}
+function myFunction16() {
+  var dots16 = document.getElementById('dots16');
+  var moreText16 = document.getElementById('more16');
+  var btnText16 = document.getElementById('myBtn16');
+
+  if (dots16.style.display === 'none') {
+    dots16.style.display = 'inline';
+    btnText16.innerHTML = 'Læs mere';
+    moreText16.style.display = 'none';
+  } else {
+    dots16.style.display = 'none';
+    btnText16.innerHTML = 'Skjul';
+    moreText16.style.display = 'inline';
+  }
+}
+function myFunction17() {
+  var dots17 = document.getElementById('dots17');
+  var moreText17 = document.getElementById('more17');
+  var btnText17 = document.getElementById('myBtn17');
+
+  if (dots17.style.display === 'none') {
+    dots17.style.display = 'inline';
+    btnText17.innerHTML = 'Læs mere';
+    moreText17.style.display = 'none';
+  } else {
+    dots17.style.display = 'none';
+    btnText17.innerHTML = 'Skjul';
+    moreText17.style.display = 'inline';
+  }
+}
+function myFunction18() {
+  var dots18 = document.getElementById('dots18');
+  var moreText18 = document.getElementById('more18');
+  var btnText18 = document.getElementById('myBtn18');
+
+  if (dots18.style.display === 'none') {
+    dots18.style.display = 'inline';
+    btnText18.innerHTML = 'Læs mere';
+    moreText18.style.display = 'none';
+  } else {
+    dots18.style.display = 'none';
+    btnText18.innerHTML = 'Skjul';
+    moreText18.style.display = 'inline';
+  }
+}
+function myFunction19() {
+  var dots19 = document.getElementById('dots19');
+  var moreText19 = document.getElementById('more19');
+  var btnText19 = document.getElementById('myBtn19');
+
+  if (dots19.style.display === 'none') {
+    dots19.style.display = 'inline';
+    btnText19.innerHTML = 'Læs mere';
+    moreText19.style.display = 'none';
+  } else {
+    dots19.style.display = 'none';
+    btnText19.innerHTML = 'Skjul';
+    moreText19.style.display = 'inline';
+  }
+}
+function myFunction20() {
+  var dots20 = document.getElementById('dots20');
+  var moreText20 = document.getElementById('more20');
+  var btnText20 = document.getElementById('myBtn20');
+
+  if (dots20.style.display === 'none') {
+    dots20.style.display = 'inline';
+    btnText20.innerHTML = 'Læs mere';
+    moreText20.style.display = 'none';
+  } else {
+    dots20.style.display = 'none';
+    btnText20.innerHTML = 'Skjul';
+    moreText20.style.display = 'inline';
+  }
+}
+function myFunction21() {
+  var dots21 = document.getElementById('dots21');
+  var moreText21 = document.getElementById('more21');
+  var btnText21 = document.getElementById('myBtn21');
+
+  if (dots21.style.display === 'none') {
+    dots21.style.display = 'inline';
+    btnText21.innerHTML = 'Læs mere';
+    moreText21.style.display = 'none';
+  } else {
+    dots21.style.display = 'none';
+    btnText21.innerHTML = 'Skjul';
+    moreText21.style.display = 'inline';
+  }
+}
+function myFunction22() {
+  var dots22 = document.getElementById('dots22');
+  var moreText22 = document.getElementById('more22');
+  var btnText22 = document.getElementById('myBtn22');
+
+  if (dots22.style.display === 'none') {
+    dots22.style.display = 'inline';
+    btnText22.innerHTML = 'Læs mere';
+    moreText22.style.display = 'none';
+  } else {
+    dots22.style.display = 'none';
+    btnText22.innerHTML = 'Skjul';
+    moreText22.style.display = 'inline';
+  }
+}
+function myFunction23() {
+  var dots23 = document.getElementById('dots23');
+  var moreText23 = document.getElementById('more23');
+  var btnText23 = document.getElementById('myBtn23');
+
+  if (dots23.style.display === 'none') {
+    dots23.style.display = 'inline';
+    btnText23.innerHTML = 'Læs mere';
+    moreText23.style.display = 'none';
+  } else {
+    dots23.style.display = 'none';
+    btnText23.innerHTML = 'Skjul';
+    moreText23.style.display = 'inline';
+  }
+}
+function myFunction24() {
+  var dots24 = document.getElementById('dots24');
+  var moreText24 = document.getElementById('more24');
+  var btnText24 = document.getElementById('myBtn24');
+
+  if (dots24.style.display === 'none') {
+    dots24.style.display = 'inline';
+    btnText24.innerHTML = 'Læs mere';
+    moreText24.style.display = 'none';
+  } else {
+    dots24.style.display = 'none';
+    btnText24.innerHTML = 'Skjul';
+    moreText24.style.display = 'inline';
+  }
+}
 //auto scroll to a point on the page
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
