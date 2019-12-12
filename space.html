@@ -11,6 +11,12 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
     <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
     <script src="js/app.js"></script>
+    <link
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
   </head>
   <body>
     <header id="navbar">
@@ -32,38 +38,59 @@
     </header>
 
     <main>
-
       <h1>Rumhistorie</h1>
 
-      <section id="cd-timeline" class="cd-container">
+      <div id="tableofcontent">
+        <h2>Indholdsfortegnelse</h2>
+        <section>
+          <a href="#1960"><h3>1960</h3></a>
+          <span>|</span>
+          <a href="#1970"><h3>1970</h3></a>
+          <span>|</span>
+          <a href="#1980"><h3>1980</h3></a>
+          <span>|</span>
+          <a href="#1990"><h3>1990</h3></a>
+          <span>|</span>
+          <a href="#2000"><h3>2000</h3></a>
+          <span>|</span>
+          <a href="#2010"><h3>2010</h3></a>
+        </section>
+      </div>
 
+      <div id="go2top">
+        <a href="#"
+          ><i class="fa fa-arrow-circle-up fa-5x" aria-hidden="true"></i
+        ></a>
+      </div>
+
+      <section id="cd-timeline" class="cd-container">
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture"></div>
           <div class="cd-timeline-content">
             <h2>Første objekt i rummet</h2>
             <p>
-                <img width="80%" src="img/Sputnik1.svg" > <br>
+              <img width="80%" src="img/Sputnik1.svg" /> <br />
               I Oktober<span id="dots">...</span
               ><span id="more">
                 sender U.S.S.R (Union of Soviet Socialist Republics) det første
                 menneskeskabte objekt ud i jordens kredsløb, Sputnik 1. Allerede
                 en måned efter sender de Sputnik 2 afsted med hunden Laika om
                 bord.
-                </span>
+              </span>
             </p>
             <button onclick="myFunction()" id="myBtn">Læs mere</button>
             <span class="cd-date">1957</span>
-          </div> <!-- Lukke div til cd-timeline-content -->
-        </div> <!-- Lukke div til cd-timeline-block -->
-
-        
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture"></div>
           <div class="cd-timeline-content">
             <h2>USA's første satelit</h2>
             <p>
-              <img src="img/Explorer1.svg">
+              <img src="img/Explorer1.svg" />
               U.S sender deres første<span id="dots1">...</span
               ><span id="more1">
                 satellit Explorer 1 ud i Januar og opdager jordens
@@ -74,445 +101,605 @@
             </p>
             <button onclick="myFunction1()" id="myBtn1">Læs mere</button>
             <span class="cd-date">1958</span>
-          </div> <!-- Lukke div til cd-timeline-content -->
-        </div> <!-- Lukke div til cd-timeline-block -->
-
-
-
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture"></div>
-            <div class="cd-timeline-content">
-              <h2>Sovjetunionen sender Luna mod månen</h2>
-              <p>
-                <img width="80%" src="img/Luna1.svg"> <br>
-                Luna 1 udsendt af U.S.S.R i Januar har til mål at<span id="dots2">...</span
-                ><span id="more2">
-                    komme i månens kredsløb, men ender istedet med at blive den første satellit der kommer i kredsløb om solen. 
-                    <br>
-                    <br>
-                    I marts sender U.S Pioneer 4 ud og kommer ind for 59,545728 kilometer af månen. 
-                    <br>
-                    <br>
-                    Kapløbet fortsætter og i september sender Sovjetunionen Luna 2 ud, med en kopi af The Soviet Coat Of Arms (Sovjets nationalvåben) og bliver de første til at ramme ind i månen. 
-                    I oktober sender de Luna 3 afsted. På missionen lykkedes det at tage billeder af 70% af månens bagside.
-                    
-                </span>
-              </p>
-              <button onclick="myFunction2()" id="myBtn2">Læs mere</button>
-              <span class="cd-date">1959</span>
-            </div> <!-- Lukke div til cd-timeline-content -->
-        </div> <!-- Lukke div til cd-timeline-block -->
-
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture"></div>
-            <div class="cd-timeline-content">
-              <h2>Den første vejrsatellit</h2>
-              <p>
-                <img width="70%" src="img/Tiros1.svg"> <br>
-                Vejrsatellitten Tiros 1 bliver <span id="dots3">...</span
-                ><span id="more3">
-                    sendt ud af U.S. Dette er den første vejrsatellit i rummet. Tiros programmet var et eksperimentelt NASA projekt for at finde ud af om satelitter kunne bruges til at studere jorden. Programmet var en succes og i 1962 blev data fra Tiros 1 brugt af meterologer i hele verden.
-                </span>
-              </p>
-              <button onclick="myFunction3()" id="myBtn3">Læs mere</button>
-              <span class="cd-date">1960</span>
-            </div> <!-- Lukke div til cd-timeline-content -->
-        </div> <!-- Lukke div til cd-timeline-block -->
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Sovjetunionen sender Luna mod månen</h2>
+            <p>
+              <img width="80%" src="img/Luna1.svg" /> <br />
+              Luna 1 udsendt af U.S.S.R i Januar har til mål at<span id="dots2"
+                >...</span
+              ><span id="more2">
+                komme i månens kredsløb, men ender istedet med at blive den
+                første satellit der kommer i kredsløb om solen.
+                <br />
+                <br />
+                I marts sender U.S Pioneer 4 ud og kommer ind for 59,545728
+                kilometer af månen.
+                <br />
+                <br />
+                Kapløbet fortsætter og i september sender Sovjetunionen Luna 2
+                ud, med en kopi af The Soviet Coat Of Arms (Sovjets
+                nationalvåben) og bliver de første til at ramme ind i månen. I
+                oktober sender de Luna 3 afsted. På missionen lykkedes det at
+                tage billeder af 70% af månens bagside.
+              </span>
+            </p>
+            <button onclick="myFunction2()" id="myBtn2">Læs mere</button>
+            <span class="cd-date">1959</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Den første vejrsatellit</h2>
+            <p>
+              <img width="70%" src="img/Tiros1.svg" /> <br />
+              Vejrsatellitten Tiros 1 bliver <span id="dots3">...</span
+              ><span id="more3">
+                sendt ud af U.S. Dette er den første vejrsatellit i rummet.
+                Tiros programmet var et eksperimentelt NASA projekt for at finde
+                ud af om satelitter kunne bruges til at studere jorden.
+                Programmet var en succes og i 1962 blev data fra Tiros 1 brugt
+                af meterologer i hele verden.
+              </span>
+            </p>
+            <button onclick="myFunction3()" id="myBtn3">Læs mere</button>
+            <span id="1960" class="cd-date">1960</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
         <div class="cd-timeline-block">
           <div class="cd-timeline-img cd-picture"></div>
           <div class="cd-timeline-content">
             <h2>De første mennesker i rummet</h2>
             <p>
-              <img width="50%" src="img/astro1.svg"> <br>
-                Sovjetunionen bliver de første til at <span id="dots4">...</span
+              <img width="50%" src="img/astro1.svg" /> <br />
+              Sovjetunionen bliver de første til at <span id="dots4">...</span
               ><span id="more4">
-                  sende det første menneske i rummet. Det sker i April 1961, hans navn er Yuri Gagarin og det er ombord på fartøjet Vostok 1.
-                  <br> <br>
-                  I disse år (februar 1962) får U.S også sendt den første amerikaner i rummet, John Glenn. 
-                  <br>
-                  Det lykkedes også at få den første live-satellit Telstar 1 i kredsløb om jorden. Den amerikanske Mariner 2 bliver det første rumfartøj til at flyve forbi planten Venus. 
-                  <br> <br>
-                  I 1963 bliver Sovjet astronauten Valentina Tereshkova den første kvinde i rummet. Hun var deroppe i 48 timer. 
-                  
+                sende det første menneske i rummet. Det sker i April 1961, hans
+                navn er Yuri Gagarin og det er ombord på fartøjet Vostok 1.
+                <br />
+                <br />
+                I disse år (februar 1962) får U.S også sendt den første
+                amerikaner i rummet, John Glenn.
+                <br />
+                Det lykkedes også at få den første live-satellit Telstar 1 i
+                kredsløb om jorden. Den amerikanske Mariner 2 bliver det første
+                rumfartøj til at flyve forbi planten Venus.
+                <br />
+                <br />
+                I 1963 bliver Sovjet astronauten Valentina Tereshkova den første
+                kvinde i rummet. Hun var deroppe i 48 timer.
               </span>
             </p>
             <button onclick="myFunction4()" id="myBtn4">Læs mere</button>
             <span class="cd-date">1961-1963</span>
-          </div> <!-- Lukke div til cd-timeline-content -->
-        </div> <!-- Lukke div til cd-timeline-block -->
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture"></div>
-            <div class="cd-timeline-content">
-              <h2>De første skridt taget i rummet</h2>
-              <p>
-                <img width="50%" src="img/astro2.svg"> <br>
-                  Den første til at gå i rummet blev<span id="dots5">...</span
-                ><span id="more5">
-                  den sovjetiske astronaut Aleksey Leonov. Dette skete i marts. Han var ude af fartøjet i 12 minutter. <br> <br>
-                  Amerikanerne følger trop og i Juni bliver Edward White den første amerikaner til at gå i rummet. Han var ude af fartøjet i 22 minutter.
-                </span>
-              </p>
-              <button onclick="myFunction5()" id="myBtn5">Læs mere</button>
-              <span class="cd-date">1965</span>
-            </div> <!-- Lukke div til cd-timeline-content -->
-        </div> <!-- Lukke div til cd-timeline-block -->
-
-       
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture"></div>
-            <div class="cd-timeline-content">
-              <h2>Starten på udforskning af planeter</h2>
-              <p>
-                <img src="img/mars.svg"> <br>
-                  I juli måned modtager man<span id="dots6">...</span
-                ><span id="more6">
-                    de første nærbilleder af Mars. Disse er taget af det amerikanske fartøj Mariner 4. <br> <br>
-                    I November sender Sovjetunionen skibet Venera 3 afsted for at udforske Venus’ overflade. Kursen er sat forkert og første forsøg mislykkedes. Kursen bliver ændret og i december kolliderer Venera 3 med Venus.
-                    
-                </span>
-              </p>
-              <button onclick="myFunction6()" id="myBtn6">Læs mere</button>
-              <span class="cd-date">1965</span>
-            </div> <!-- Lukke div til cd-timeline-content -->
-         </div> <!-- Lukke div til cd-timeline-block -->
-
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>De første skridt taget i rummet</h2>
+            <p>
+              <img width="50%" src="img/astro2.svg" /> <br />
+              Den første til at gå i rummet blev<span id="dots5">...</span
+              ><span id="more5">
+                den sovjetiske astronaut Aleksey Leonov. Dette skete i marts.
+                Han var ude af fartøjet i 12 minutter. <br />
+                <br />
+                Amerikanerne følger trop og i Juni bliver Edward White den
+                første amerikaner til at gå i rummet. Han var ude af fartøjet i
+                22 minutter.
+              </span>
+            </p>
+            <button onclick="myFunction5()" id="myBtn5">Læs mere</button>
+            <span class="cd-date">1965</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture"></div>
-            <div class="cd-timeline-content">
-              <h2>Tættere på månen</h2>
-              <p>
-                <img src="img/moon.svg"> <br>
-                  Det lykkedes i februar for<span id="dots7">...</span
-                ><span id="more7">
-                    den sovjetiske Luna 9 at lande blødt på månen. I marts sender de Luna 10 afsted og denne gang lykkedes det at komme i kredsløb om månen. <br> <br>
-                    U.S følger trop og i juni lykkedes det også det amerikanske fartøj Surveyor 1 at lave en blød landing på månen. Kort efter lykkedes det også U.S at få Lunar Orbiter 1 i månens kredsløb. Lunar Orbiter 1 bliver den første til at tage billeder af jorden fra sådan en afstand. 
-
-                </span>
-              </p>
-              <button onclick="myFunction7()" id="myBtn7">Læs mere</button>
-              <span class="cd-date">1966</span>
-            </div> <!-- Lukke div til cd-timeline-content -->
-        </div> <!-- Lukke div til cd-timeline-block -->
-
-
-        <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture"></div>
-            <div class="cd-timeline-content">
-              <h2>Første dødsfald i rummet</h2>
-              <p>
-                <img width="50%" src="img/astrodød.svg"> <br>
-                  Den sovjetiske astronaut<span id="dots8">...</span
-                ><span id="more8">
-                    Vladimir Komarov var den første til at omkomme i rummet. Komarov var chefpilot på Voskhod 1, den første flermandsbesætning i rummet.
-                    <br> <br> På sin anden rumflyvining, i Sojuz 1, omkom han, da faldskærmen fejlede under landingen. Rumflyvningen havde været ramt af mange problemer og tragisk var det da Sojuz 1 styrtede til jorden.
-                </span>
-              </p>
-              <button onclick="myFunction8()" id="myBtn8">Læs mere</button>
-              <span class="cd-date">1967</span>
-            </div> <!-- Lukke div til cd-timeline-content -->
-        </div> <!-- Lukke div til cd-timeline-block -->
-
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Starten på udforskning af planeter</h2>
+            <p>
+              <img src="img/mars.svg" /> <br />
+              I juli måned modtager man<span id="dots6">...</span
+              ><span id="more6">
+                de første nærbilleder af Mars. Disse er taget af det amerikanske
+                fartøj Mariner 4. <br />
+                <br />
+                I November sender Sovjetunionen skibet Venera 3 afsted for at
+                udforske Venus’ overflade. Kursen er sat forkert og første
+                forsøg mislykkedes. Kursen bliver ændret og i december
+                kolliderer Venera 3 med Venus.
+              </span>
+            </p>
+            <button onclick="myFunction6()" id="myBtn6">Læs mere</button>
+            <span class="cd-date">1965</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
         <div class="cd-timeline-block">
-            <div class="cd-timeline-img cd-picture"></div>
-            <div class="cd-timeline-content">
-              <h2>De første bemandede månemissioner</h2>
-              <p>
-                <img src="img/zond5.svg"> <br>
-                  Zond 5  bliver sendt ud af sovjetunionen og bliver<span id="dots9">...</span
-                ><span id="more9">
-                  det andet sovjetiske fartøj til at komme i kredsløb om månen og det første der kommer sikkert tilbage igen. Zond 5 transporterede de første jordiske organismer i nærheden af ​​Månen, herunder to skildpadder, frugt, flueæg og planter. <br> <br>
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Tættere på månen</h2>
+            <p>
+              <img src="img/moon.svg" /> <br />
+              Det lykkedes i februar for<span id="dots7">...</span
+              ><span id="more7">
+                den sovjetiske Luna 9 at lande blødt på månen. I marts sender de
+                Luna 10 afsted og denne gang lykkedes det at komme i kredsløb om
+                månen. <br />
+                <br />
+                U.S følger trop og i juni lykkedes det også det amerikanske
+                fartøj Surveyor 1 at lave en blød landing på månen. Kort efter
+                lykkedes det også U.S at få Lunar Orbiter 1 i månens kredsløb.
+                Lunar Orbiter 1 bliver den første til at tage billeder af jorden
+                fra sådan en afstand.
+              </span>
+            </p>
+            <button onclick="myFunction7()" id="myBtn7">Læs mere</button>
+            <span class="cd-date">1966</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
-                  U.S bliver de første der forsøger en bemandet månemission med skibet Apollo 7 under rumprogrammet Apollo. Månelanding modulet var dog ikke medbragt og Apollo 7 vendte tilbage 11 dage efter. 
-                    
-                  Et par måneder efter lykkedes det Apollo 8 at komme i kredsløb om månen, dette som den første bemandede rumraket.
-                    
-                </span>
-              </p>
-              <button onclick="myFunction9()" id="myBtn9">Læs mere</button>
-              <span class="cd-date">1968</span>
-            </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Første dødsfald i rummet</h2>
+            <p>
+              <img width="50%" src="img/astrodød.svg" /> <br />
+              Den sovjetiske astronaut<span id="dots8">...</span
+              ><span id="more8">
+                Vladimir Komarov var den første til at omkomme i rummet. Komarov
+                var chefpilot på Voskhod 1, den første flermandsbesætning i
+                rummet.
+                <br />
+                <br />
+                På sin anden rumflyvining, i Sojuz 1, omkom han, da faldskærmen
+                fejlede under landingen. Rumflyvningen havde været ramt af mange
+                problemer og tragisk var det da Sojuz 1 styrtede til jorden.
+              </span>
+            </p>
+            <button onclick="myFunction8()" id="myBtn8">Læs mere</button>
+            <span class="cd-date">1967</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>De første bemandede månemissioner</h2>
+            <p>
+              <img src="img/zond5.svg" /> <br />
+              Zond 5 bliver sendt ud af sovjetunionen og bliver<span id="dots9"
+                >...</span
+              ><span id="more9">
+                det andet sovjetiske fartøj til at komme i kredsløb om månen og
+                det første der kommer sikkert tilbage igen. Zond 5
+                transporterede de første jordiske organismer i nærheden af
+                ​​Månen, herunder to skildpadder, frugt, flueæg og planter.
+                <br />
+                <br />
 
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>“Et kæmpe spring for menneskeheden”</h2>
-                <p>
-                  <img src="img/moonlanding.svg"> <br> <br>
-                  1969 var et begivenhedernes år for rummissionerne.<span id="dots10">...</span
-                  ><span id="more10">
-                      1969 var et begivenhedernes år for rummissionerne. I januar blev Soyuz 4 og 5 de første 2 rumraketter hvor man fik en astronaut fra et skib over i et andet. <br> <br>
-                      Noget helt særligt skete dog i juli hvor mange spændt fulgte med fra stuerne. Apollo 11 landede på månen. Neil Armstrong and Edwin Aldrin var ombord og blev de første to til at gå på månen. <br> <br>
-                      Måske har du hørt udtrykket »One small step for man, one giant leap for mankind« - dette sagde Neil Armstrong som det første, da han satte fod på månen.
-                      
-                  </span>
-                </p>
-                <button onclick="myFunction10()" id="myBtn10">Læs mere</button>
-                <span class="cd-date">1969</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
+                U.S bliver de første der forsøger en bemandet månemission med
+                skibet Apollo 7 under rumprogrammet Apollo. Månelanding modulet
+                var dog ikke medbragt og Apollo 7 vendte tilbage 11 dage efter.
+                Et par måneder efter lykkedes det Apollo 8 at komme i kredsløb
+                om månen, dette som den første bemandede rumraket.
+              </span>
+            </p>
+            <button onclick="myFunction9()" id="myBtn9">Læs mere</button>
+            <span class="cd-date">1968</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>“Et kæmpe spring for menneskeheden”</h2>
+            <p>
+              <img src="img/moonlanding.svg" /> <br />
+              <br />
+              1969 var et begivenhedernes år for rummissionerne.<span
+                id="dots10"
+                >...</span
+              ><span id="more10">
+                1969 var et begivenhedernes år for rummissionerne. I januar blev
+                Soyuz 4 og 5 de første 2 rumraketter hvor man fik en astronaut
+                fra et skib over i et andet. <br />
+                <br />
+                Noget helt særligt skete dog i juli hvor mange spændt fulgte med
+                fra stuerne. Apollo 11 landede på månen. Neil Armstrong and
+                Edwin Aldrin var ombord og blev de første to til at gå på månen.
+                <br />
+                <br />
+                Måske har du hørt udtrykket »One small step for man, one giant
+                leap for mankind« - dette sagde Neil Armstrong som det første,
+                da han satte fod på månen.
+              </span>
+            </p>
+            <button onclick="myFunction10()" id="myBtn10">Læs mere</button>
+            <span class="cd-date">1969</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Udforskning af månen</h2>
-                <p>
-                  <img src="img/Luna17.svg"> <br> <br>
-                    I April bliver Apollo 13 sendt afsted men<span id="dots11">...</span
-                  ><span id="more11">
-                      da der sker en eksplosion må dens månelanding afbrydes. Besætningen vender sikkert tilbage. <br> <br>
-                      Man vil utrolig gerne undersøge miljøet på månen og i den forbindelse sender Sovjetunionen i september Luna 16 afsted. Luna 16 bliver den første til at udføre en vellykket tilbagevenden med ​​månejordprøver ombord - dette ved hjælp af et automatisk rumfartøj. <br>
-                      Luna 17 lander på månen i december med den automatiske robot, Lunokhod 1, der blev styret fra et kontrolpanel på jorden.
-                                            
-                  </span>
-                </p>
-                <button onclick="myFunction11()" id="myBtn10">Læs mere</button>
-                <span class="cd-date">1970</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Udforskning af månen</h2>
+            <p>
+              <img src="img/Luna17.svg" /> <br />
+              <br />
+              I April bliver Apollo 13 sendt afsted men<span id="dots11"
+                >...</span
+              ><span id="more11">
+                da der sker en eksplosion må dens månelanding afbrydes.
+                Besætningen vender sikkert tilbage. <br />
+                <br />
+                Man vil utrolig gerne undersøge miljøet på månen og i den
+                forbindelse sender Sovjetunionen i september Luna 16 afsted.
+                Luna 16 bliver den første til at udføre en vellykket
+                tilbagevenden med ​​månejordprøver ombord - dette ved hjælp af
+                et automatisk rumfartøj. <br />
+                Luna 17 lander på månen i december med den automatiske robot,
+                Lunokhod 1, der blev styret fra et kontrolpanel på jorden.
+              </span>
+            </p>
+            <button onclick="myFunction11()" id="myBtn10">Læs mere</button>
+            <span id="1970" class="cd-date">1970</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Sovjetunionen opsender en rumstation</h2>
+            <p>
+              <img src="img/Salyut1.svg" /> <br />
+              <br />
+              Salyut 1 bliver den første rumstation, og<span id="dots12"
+                >...</span
+              ><span id="more12">
+                er opsendt i april. Fartøjet Soyuz 11 transporterer i juni den
+                første besætning derop. Besætningen dør d. 29. Juni ved et
+                mislykket forsøg på genindrejse.
+              </span>
+            </p>
+            <button onclick="myFunction12()" id="myBtn12">Læs mere</button>
+            <span class="cd-date">1971</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Sovjetunionen opsender en rumstation</h2>
-                <p>
-                  <img src="img/Salyut1.svg"> <br> <br>
-                     Salyut 1 bliver den første rumstation, og<span id="dots12">...</span
-                  ><span id="more12">
-                      er opsendt i april. Fartøjet Soyuz 11 transporterer i juni den første besætning derop. Besætningen dør d. 29. Juni ved et mislykket forsøg på genindrejse.
-                  </span>
-                </p>
-                <button onclick="myFunction12()" id="myBtn12">Læs mere</button>
-                <span class="cd-date">1971</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Der bliver kørt på månen</h2>
+            <p>
+              Amerikanerne David Scott og<span id="dots13">...</span
+              ><span id="more13">
+                James Irwin kører den første månebil - moon roveren. Køretøjet
+                blev specielt designet til at køre på månens overflade og skulle
+                bruges til at rykke rumforskningen til et nyt niveau.
+              </span>
+            </p>
+            <button onclick="myFunction13()" id="myBtn13">Læs mere</button>
+            <span class="cd-date">1971</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>En teori om liv på Jupiter</h2>
+            <p>
+              <img src="img/pioneer10.svg" /> <br />
+              <br />
+              USA skyder Pioneer 10 mod<span id="dots14">...</span
+              ><span id="more14">
+                Jupiter med den hensigt at gøre bekendtskab med fremmede livs
+                former. Det skulle ske ubemandet og ved at observere planeten
+                fra nært hold. Pioneer 10 sendte mange værdifulde informationer
+                til jorden om Jupiter og resten af det ydre solsystem. <br />
+                <br />
+                Det første sandsynlige sorte hul opdages af astronomer i 1972.
+                Den får navnet Cygnus X-1. <br />
+                Men hvad er et sort hul? Et sort hul er en stjerne der er løbet
+                tør for energi, hvilket gør at den kollapser og dens indre har
+                så enorm tyngdekraft at intet kan komme ud derfra igen.
+              </span>
+            </p>
+            <button onclick="myFunction14()" id="myBtn14">Læs mere</button>
+            <span class="cd-date">1972</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Der bliver kørt på månen</h2>
-                <p>
-                    Amerikanerne David Scott og<span id="dots13">...</span
-                  ><span id="more13">
-                      James Irwin kører den første månebil - moon roveren. Køretøjet blev specielt designet til at køre på månens overflade og skulle bruges til at rykke rumforskningen til et nyt niveau.
-                    </span>
-                </p>
-                <button onclick="myFunction13()" id="myBtn13">Læs mere</button>
-                <span class="cd-date">1971</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Sovjetunionen opsender rumstationer</h2>
+            <p>
+              <img src="img/salyut4.svg" /> <br />
+              <br />
+              USSR opsender Salyut 3 - den<span id="dots15">...</span
+              ><span id="more15">
+                første militære rumstation i Juni. De vil dog ikke frigøre
+                information om rumstationens hensigter og missioner. Man ved dog
+                at stationen havde et forsvarsvåben. Det mislykkedes for flere
+                rumfartøjer at ligge til rumstationen, hvorfor man besluttede at
+                den ikke længere skulle være i brug. Derfor sendte man en
+                kommando om at våbnet skulle affyres ud i rummet. Salyut 3 blev
+                sendt ud af kredsløb i 1975. <br />
+                <br />
+                Sidst på året bliver Salyut 4 opsendt - den første civile
+                rumstation. Besætninger fra 3 forskellige fartøjer når at have
+                ophold på Salyut 4 - det længste 63 dage. Holdbarheden blev
+                testet og vurderet vellykket trods lidt forringelse af de
+                miljømæssige systemer ombord.
+              </span>
+            </p>
+            <button onclick="myFunction15()" id="myBtn15">Læs mere</button>
+            <span class="cd-date">1974</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Møde i rummet</h2>
+            <p>
+              <img src="img/apollo18.svg" /> <br />
+              <br />
+              Den amerikanske Apollo 18 og<span id="dots16">...</span
+              ><span id="more16">
+                sovjetiske Soyuz 19 anløber - det bliver det første
+                internationale rumfartøjs møde. Mødets formål var at mildne den
+                anstrengte relation mellem USA og Sovjetunionen.
+              </span>
+            </p>
+            <button onclick="myFunction16()" id="myBtn16">Læs mere</button>
+            <span class="cd-date">1975</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Udforskning af andre planeter</h2>
+            <p>
+              Disse år går med utallige rummissioner,<span id="dots17">...</span
+              ><span id="more17">
+                blandt de vigtigste opdagelser, er at Viking 2 lander på Mars og
+                finder is. Dette i September 1976. <br />
+                <br />
+                I September 1979 kommer Pioneer 11 inden for 20 921,472 km fra
+                Saturn. Det tætteste hidtil.
+              </span>
+            </p>
+            <button onclick="myFunction17()" id="myBtn17">Læs mere</button>
+            <span class="cd-date">1976-1979</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>En teori om liv på Jupiter</h2>
-                <p>
-                  <img src="img/pioneer10.svg"> <br> <br>
-                   USA skyder Pioneer 10 mod<span id="dots14">...</span
-                  ><span id="more14">
-                      Jupiter med den hensigt at gøre bekendtskab med fremmede livs former. Det skulle ske ubemandet og ved at observere planeten fra nært hold. Pioneer 10 sendte mange værdifulde informationer til jorden om Jupiter og resten af det ydre solsystem. <br> <br> 
-                      Det første sandsynlige sorte hul opdages af astronomer i 1972. Den får navnet Cygnus X-1. <br>
-                      Men hvad er et sort hul? Et sort hul er en stjerne der er løbet tør for energi, hvilket gør at den kollapser og dens indre har så enorm tyngdekraft at intet kan komme ud derfra igen. 
-                    </span>
-                </p>
-                <button onclick="myFunction14()" id="myBtn14">Læs mere</button>
-                <span class="cd-date">1972</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Rekord tid i rummet</h2>
+            <p>
+              I maj begynder sovjetiske atronauter<span id="dots18">...</span
+              ><span id="more18">
+                en 211 dages besættelse af en af deres Salyut rumstationer, en
+                ny rekord, der på dette tidspunkt får så meget omtale at det
+                bliver anerkendt i Guinness World Records.
+              </span>
+            </p>
+            <button onclick="myFunction18()" id="myBtn18">Læs mere</button>
+            <span id="1980" class="cd-date">1982</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>En amerikansk kvinde i rummet</h2>
+            <p>
+              <img width="50%" src="img/astrokvinde.svg" /> <br />
+              <br />
+              20 år efter den sovjetiske astronaut<span id="dots19">...</span
+              ><span id="more19">
+                Valentina har været i rummet, bliver Sally K Ride den tredje
+                kvinde til at opholde sig i rummet. Dette sker på en mission med
+                skibet Challenger i juni. Sally K Ride er altså den første
+                amerikanske kvinde i rummet, og når at være der i 343 timer.
+                <br />
+                <br />
+                I Januar dette år sender NASA Den infrarøde astronomiske
+                satellit IRAS ud på en 10 måneder lang ekspedition. Mange
+                uventede opdagelser fandt sted, blandt andet nye kometer,
+                asteroider og tegn på flere galakser og planeter.
+              </span>
+            </p>
+            <button onclick="myFunction19()" id="myBtn19">Læs mere</button>
+            <span class="cd-date">1983</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Flere lande kommer ind i kampen</h2>
+            <p>
+              <img src="img/sakigake.svg" /> <br />
+              <br />
+              Sakigake sonden bliver affyret<span id="dots20">...</span
+              ><span id="more20">
+                fra Japans Institut for Rum og Luftfarts Videnskab. <br />
+                <br />
+                I april 1985 fører Rumfærgen Challenger, ESA Spacelab 3 ind i
+                kredsløb. I oktober 1985 bliver Spacelab D1 den første fælles
+                ESA-mission. <br />
+                <br />
+                I januar 1986 flyver Voyager 2 forbi Uranus. Rumfærgen
+                Challenger havde en planlagt mission men eksploderede kort efter
+                lift off.
+              </span>
+            </p>
+            <button onclick="myFunction20()" id="myBtn20">Læs mere</button>
+            <span class="cd-date">1985-1986</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Sovjetunionen opsender rumstationer</h2>
-                <p>
-                  <img src="img/salyut4.svg"> <br> <br>
-                    USSR opsender Salyut 3 - den<span id="dots15">...</span
-                  ><span id="more15">
-                      første militære rumstation i Juni. De vil dog ikke frigøre information om rumstationens hensigter og missioner. Man ved dog at stationen havde et forsvarsvåben. Det mislykkedes for flere rumfartøjer at ligge til rumstationen, hvorfor man besluttede at den ikke længere skulle være i brug. Derfor sendte man en kommando om at våbnet skulle affyres ud i rummet. Salyut 3 blev sendt ud af kredsløb i 1975. <br> <br>
-                      Sidst på året bliver Salyut 4 opsendt - den første civile rumstation. Besætninger fra 3 forskellige fartøjer når at have ophold på Salyut 4 - det længste 63 dage. Holdbarheden blev testet og vurderet vellykket trods lidt forringelse af de miljømæssige systemer ombord.
-                    </span>
-                </p>
-                <button onclick="myFunction15()" id="myBtn15">Læs mere</button>
-                <span class="cd-date">1974</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Samarbejde på tværs af nationer</h2>
+            <p>
+              <img src="img/samarbejde.svg" /> <br />
+              <br />
+              I februar 1994 sker et stort fremskridt<span id="dots21">...</span
+              ><span id="more21">
+                i samarbejdet mellem USA og Rusland. Dette da en Russisk
+                astronaut flyver i en amerikansk raket på mission for første
+                gang. <br />
+                <br />
+                En ny rekord bliver sat i marts 1995 da astronauten Valery
+                Polyakov vender tilbage til jorden efter 438 dage i rummet og
+                dermed sætter en ny rekord for længst tid i rummet. <br />
+                <br />
+                Shannon Lucid bliver den første kvinde til at komme ombord på en
+                rumstation. Hun ankommer i 1996.
+              </span>
+            </p>
+            <button onclick="myFunction21()" id="myBtn21">Læs mere</button>
+            <span id="1990" class="cd-date">1994-1996</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Den internationale rumstation ISS</h2>
+            <p>
+              <img src="img/iss.svg" /> <br />
+              <br />
+              I 1998 bliver det første modul af hvad<span id="dots22">...</span
+              ><span id="more22">
+                der de kommende år bliver til Den Internationale Rumstation
+                sendt op. Stationens første modul Zarja blev sendt op af
+                Rusland. <br />
+                <br />
+                Rumstationen er del af et samarbejde om at samle to rumstationer
+                fra USA og Rusland. Canada, Japan og 11 andre medlemmer af ESA
+                er juniorpartnere på projektet. (ESA er Den Europæiske
+                Rumorganisation og er en sammenslutning af europæiske lande
+                indenfor rumfart og rumforskning.) <br />
+                <br />
+                I oktober 2000 er der jubilæum. En 10-dages mission til ISS
+                bliver nemlig til den 100. flyvetur til rummet. <br />
+                <br />
+                I november 2000 ankommer de første mennesker, med hensigt om
+                fast ophold, til ISS.
+              </span>
+            </p>
+            <button onclick="myFunction22()" id="myBtn22">Læs mere</button>
+            <span id="2000" class="cd-date">1998-2000</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Møde i rummet</h2>
-                <p>
-                  <img src="img/apollo18.svg"> <br> <br>
-                   Den amerikanske Apollo 18 og<span id="dots16">...</span
-                  ><span id="more16">
-                      sovjetiske Soyuz 19 anløber - det bliver det første internationale rumfartøjs møde. Mødets formål var at mildne den anstrengte relation mellem USA og Sovjetunionen. 
-                    </span>
-                </p>
-                <button onclick="myFunction16()" id="myBtn16">Læs mere</button>
-                <span class="cd-date">1975</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>SpaceX</h2>
+            <p>
+              <img src="img/livinginspace.svg" /> <br />
+              <br />
+              SpaceX bliver oprettet i<span id="dots23">...</span
+              ><span id="more23">
+                2002 og er et privat firma der designer, producerer og opsender
+                avancerede raketter og rumfartøjer. Målet er at revolutionere
+                rumteknologien på flere måder. Det ultimative mål er at gøre det
+                muligt for mennesker at bo på andre planeter end jorden.
+              </span>
+            </p>
+            <button onclick="myFunction23()" id="myBtn23">Læs mere</button>
+            <span class="cd-date">2002</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
 
-
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Udforskning af andre planeter</h2>
-                <p>
-                   Disse år går med utallige rummissioner,<span id="dots17">...</span
-                  ><span id="more17">
-                      blandt de vigtigste opdagelser, er at Viking 2 lander på Mars og finder is. Dette i September 1976. <br> <br>
-                      I September 1979 kommer Pioneer 11 inden for 20 921,472 km fra Saturn. Det tætteste hidtil.                    
-                    </span>
-                </p>
-                <button onclick="myFunction17()" id="myBtn17">Læs mere</button>
-                <span class="cd-date">1976-1979</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
-
-
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Rekord tid i rummet</h2>
-                <p>
-                   I maj begynder sovjetiske atronauter<span id="dots18">...</span
-                  ><span id="more18">
-                      en 211 dages besættelse af en af deres Salyut rumstationer, en ny rekord, der på dette tidspunkt får så meget omtale at det bliver anerkendt i Guinness World Records.
-                    </span>
-                </p>
-                <button onclick="myFunction18()" id="myBtn18">Læs mere</button>
-                <span class="cd-date">1982</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
-
-
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>En amerikansk kvinde i rummet</h2>
-                <p>
-                  <img width="50%" src="img/astrokvinde.svg"> <br> <br>
-                   20 år efter den sovjetiske astronaut<span id="dots19">...</span
-                  ><span id="more19">
-                      Valentina har været i rummet, bliver Sally K Ride den tredje kvinde til at opholde sig i rummet. Dette sker på en mission med skibet Challenger i juni. Sally K Ride er altså den første amerikanske kvinde i rummet, og når at være der i 343 timer. <br> <br>
-                      I Januar dette år sender NASA Den infrarøde astronomiske satellit IRAS ud på en 10 måneder lang ekspedition. Mange uventede opdagelser fandt sted, blandt andet nye kometer, asteroider og tegn på flere galakser og planeter.
-                    </span>
-                </p>
-                <button onclick="myFunction19()" id="myBtn19">Læs mere</button>
-                <span class="cd-date">1983</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
-
-
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Flere lande kommer ind i kampen</h2>
-                <p>
-                  <img src="img/sakigake.svg"> <br> <br>
-                   Sakigake sonden bliver affyret<span id="dots20">...</span
-                  ><span id="more20">
-                      fra Japans Institut for Rum og Luftfarts Videnskab. <br> <br>
-                      I april 1985 fører Rumfærgen Challenger, ESA Spacelab 3 ind i kredsløb.
-                      I oktober 1985 bliver Spacelab D1 den første fælles ESA-mission. <br> <br>
-                      I januar 1986 flyver Voyager 2 forbi Uranus. Rumfærgen Challenger havde en planlagt mission men eksploderede kort efter lift off.
-                      
-                    </span>
-                </p>
-                <button onclick="myFunction20()" id="myBtn20">Læs mere</button>
-                <span class="cd-date">1985-1986</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
-
-
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Samarbejde på tværs af nationer</h2>
-                <p>
-                  <img src="img/samarbejde.svg"> <br> <br>
-                   I februar 1994 sker et stort fremskridt<span id="dots21">...</span
-                  ><span id="more21">
-                      i samarbejdet mellem USA og Rusland. Dette da en Russisk astronaut flyver i en amerikansk raket på mission for første gang. <br> <br>
-                      En ny rekord bliver sat i marts 1995 da astronauten Valery Polyakov vender tilbage til jorden efter 438 dage i rummet og dermed sætter en ny rekord for længst tid i rummet. <br> <br>
-                      Shannon Lucid bliver den første kvinde til at komme ombord på en rumstation. Hun ankommer i 1996. 
-                    </span>
-                </p>
-                <button onclick="myFunction21()" id="myBtn21">Læs mere</button>
-                <span class="cd-date">1994-1996</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
-
-
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Den internationale rumstation ISS</h2>
-                <p>
-                  <img src="img/iss.svg"> <br> <br>
-                   I 1998 bliver det første modul af hvad<span id="dots22">...</span
-                  ><span id="more22">
-                      der de kommende år bliver til Den Internationale Rumstation sendt op. Stationens første modul Zarja blev sendt op af Rusland. <br> <br>
-                      Rumstationen er del af et samarbejde om at samle to rumstationer fra USA og Rusland. Canada, Japan og 11 andre medlemmer af ESA er juniorpartnere på projektet.
-                      (ESA er Den Europæiske Rumorganisation og er en sammenslutning af europæiske lande indenfor rumfart og rumforskning.) <br> <br>
-                      I oktober 2000 er der jubilæum. En 10-dages mission til ISS bliver nemlig til den 100. flyvetur til rummet. <br> <br>
-                      I november 2000 ankommer de første mennesker, med hensigt om fast ophold, til ISS.
-                      
-                    </span>
-                </p>
-                <button onclick="myFunction22()" id="myBtn22">Læs mere</button>
-                <span class="cd-date">1998-2000</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
-
-
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>SpaceX</h2>
-                <p>
-                  <img src="img/livinginspace.svg"> <br> <br>
-                   SpaceX bliver oprettet i<span id="dots23">...</span
-                  ><span id="more23">
-                      2002 og er et privat  firma der designer, producerer og opsender avancerede raketter og rumfartøjer. Målet er at revolutionere rumteknologien på flere måder. Det ultimative mål er at gøre det muligt for mennesker at bo på andre planeter end jorden.
-                    </span>
-                </p>
-                <button onclick="myFunction23()" id="myBtn23">Læs mere</button>
-                <span class="cd-date">2002</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
-
-          <div class="cd-timeline-block">
-              <div class="cd-timeline-img cd-picture"></div>
-              <div class="cd-timeline-content">
-                <h2>Genbrug af raketter</h2>
-                <p>
-                  <img width="100%" src="img/SpaceX.png"> <br> <br>
-                   I marts 2017 bliver<span id="dots24">...</span
-                  ><span id="more24">
-                      SpaceX de første til at lave en raket der kan genbruges. Dette lykkedes med deres Falcon 9 der efter en succesfuld mission landede på jorden igen. Allerede i Juni gør de det igen med deres fartøj Dragon. Dragon leverede vellykket forsyninger til den internationale rumstation og kom tilbage igen.
-                    </span>
-                </p>
-                <button onclick="myFunction24()" id="myBtn24">Læs mere</button>
-                <span class="cd-date">2017</span>
-              </div> <!-- Lukke div til cd-timeline-content -->
-          </div> <!-- Lukke div til cd-timeline-block -->
+        <div class="cd-timeline-block">
+          <div class="cd-timeline-img cd-picture"></div>
+          <div class="cd-timeline-content">
+            <h2>Genbrug af raketter</h2>
+            <p>
+              <img width="100%" src="img/SpaceX.png" /> <br />
+              <br />
+              I marts 2017 bliver<span id="dots24">...</span
+              ><span id="more24">
+                SpaceX de første til at lave en raket der kan genbruges. Dette
+                lykkedes med deres Falcon 9 der efter en succesfuld mission
+                landede på jorden igen. Allerede i Juni gør de det igen med
+                deres fartøj Dragon. Dragon leverede vellykket forsyninger til
+                den internationale rumstation og kom tilbage igen.
+              </span>
+            </p>
+            <button onclick="myFunction24()" id="myBtn24">Læs mere</button>
+            <span id="2010" class="cd-date">2017</span>
+          </div>
+          <!-- Lukke div til cd-timeline-content -->
+        </div>
+        <!-- Lukke div til cd-timeline-block -->
       </section>
       <!-- cd-timeline -->
     </main>

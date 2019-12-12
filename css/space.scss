@@ -9,7 +9,7 @@ main {
   padding-top: 80px;
 }
 
-h1{
+h1 {
   font-family: 'Kameron', serif;
   font-weight: bold;
   font-size: 40px;
@@ -34,6 +34,38 @@ h1{
 /* -------------------------------- 
   Main components 
   -------------------------------- */
+
+#tableofcontent {
+  background: #7380806c;
+  text-align: center;
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  border-radius: 2px;
+  h2 {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+  }
+  section {
+    display: flex;
+    justify-content: center;
+    span {
+      text-decoration: none;
+      color: #dbb24b;
+      font-family: 'Open Sans', sans-serif;
+      margin: -4px 5px 10px 5px;
+    }
+    a h3 {
+      margin: -5px auto;
+    }
+  }
+}
+
+#go2top {
+  position: fixed;
+  bottom: 2vh;
+  left: 1vw;
+}
 
 #cd-timeline {
   position: relative;
@@ -263,8 +295,29 @@ h1{
 }
 
 #more,
-#more1, #more2, #more3, #more4, #more5, #more6, #more7, #more8, #more9, #more10,
-#more11, #more12, #more13, #more14, #more15, #more16, #more17, #more18, #more19,
-#more20, #more21, #more22, #more23, #more24  {
+#more1,
+#more2,
+#more3,
+#more4,
+#more5,
+#more6,
+#more7,
+#more8,
+#more9,
+#more10,
+#more11,
+#more12,
+#more13,
+#more14,
+#more15,
+#more16,
+#more17,
+#more18,
+#more19,
+#more20,
+#more21,
+#more22,
+#more23,
+#more24 {
   display: none;
 }

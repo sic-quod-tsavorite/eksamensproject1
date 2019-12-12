@@ -34,3 +34,14 @@ main {
   background: #2b343a;
   border-radius: 2px;
 }
+
+#plakatText {
+  padding: 0;
+}
+
+#plakater {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 0 40px 0;
+}

@@ -81,15 +81,4 @@ main {
   width: 50%;
   margin: 10px;
 }
-
-#bottom {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  margin: 40px 0 5px 0;
-}
 /*# sourceMappingURL=about.css.map */

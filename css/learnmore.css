@@ -39,4 +39,19 @@ main {
   background: #2b343a;
   border-radius: 2px;
 }
+
+#plakatText {
+  padding: 0;
+}
+
+#plakater {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 40px 0 40px 0;
+}
 /*# sourceMappingURL=learnmore.css.map */

@@ -56,15 +56,15 @@ main section {
 }
 
 #box1b {
-  background: url('https://cdnb.artstation.com/p/assets/images/images/010/350/317/large/vadim-sadovski-y21.jpg?1523967399');
+  background: url('/img/rummet.jpg');
   background-size: cover;
 }
 #box2b {
-  background: url('https://images.freeimages.com/images/large-previews/bb8/rome-1233000.jpg');
+  background: url('/img/rom.jpg');
   background-size: cover;
 }
 #box3b {
-  background: url('https://images.freeimages.com/images/large-previews/92e/angel-1-1480339.jpg');
+  background: url('/img/kirke.jpg');
   background-size: cover;
 }
 #box4b {
@@ -72,18 +72,18 @@ main section {
   background-size: cover;
 }
 #box5b {
-  background: url('https://images.freeimages.com/images/large-previews/aaa/konzentrationslager-auschwitz-birkenau-und-auschwi-1413373.jpg');
+  background: url('/img/besættelsen.jpg');
   background-size: cover;
 }
 #box6b {
-  background: url('https://images.freeimages.com/images/large-previews/869/child-from-kenya-1440102.jpg');
+  background: url('/img/barn.jpg');
   background-size: cover;
 }
 
 .boxHeader {
   pointer-events: none;
-  color: #dbb24b;
-  text-shadow: 1px 1px white;
+  color: white;
+  text-shadow: 1px 1px black;
   padding-top: 30%;
   font-size: 40px;
   opacity: 0;
