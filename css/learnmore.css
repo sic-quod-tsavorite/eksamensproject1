@@ -54,4 +54,9 @@ main {
           justify-content: space-evenly;
   margin: 40px 0 40px 0;
 }
+
+#plakater img {
+  width: 200px;
+  height: 280px;
+}
 /*# sourceMappingURL=learnmore.css.map */
