@@ -33,6 +33,7 @@ main {
   padding: 50px;
   background: #2b343a;
   border-radius: 2px;
+  contain: content;
 }
 
 #plakatText {
@@ -47,5 +48,17 @@ main {
   img {
     width: 200px;
     height: 280px;
+  }
+}
+
+@media (max-width: 850px) {
+  h1 {
+    font-size: 30px;
+  }
+  main {
+    max-width: 100%;
+  }
+  #plakater img {
+    max-width: 25%;
   }
 }
