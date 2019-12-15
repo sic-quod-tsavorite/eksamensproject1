@@ -61,3 +61,16 @@ main {
   width: 50%;
   margin: 10px;
 }
+
+@media (max-width: 850px) {
+  #top {
+    flex-direction: column;
+  }
+  #logoimg {
+    width: 100%;
+    max-height: 300px;
+  }
+  #text {
+    width: 100%;
+  }
+}
